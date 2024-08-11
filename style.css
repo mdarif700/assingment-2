@@ -533,6 +533,56 @@ input::placeholder {
   letter-spacing: 1px;
   font-size: 0.8rem;
 }
+.unique-section{
+  width: 80%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  margin: 2rem auto;
+  height: 400px;
+}
+.unique-section-card{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 1rem;
+  border-radius: 10px;
+  background-color: #1f2125;
+  padding: 1rem 2rem;
+  color: white;
+}
+.arrow-continer{
+  display: flex;
+  gap: .4rem;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.arrow{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.fill-icon{
+  width: 45px;
+  height: 45px;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 2rm;
+  background-color: #d79447;
+ 
+}
+.card-first-icon{
+  margin: 2rem 0;
+}
+
+.unique-section-card:hover {
+  background-color: #111317;
+  border: 2px solid #d79447;
+  transform: scale(1.05);
+  transition: .8s;
+}
+
 @media screen and (max-width: 570px) {
   nav,
   .hero-section {
@@ -545,13 +595,13 @@ input::placeholder {
     display: none;
   }
 
-  .menu-icon {
+  .menu-icon,.unique-section {
     display: flex;
   }
   .hero-section,
   .habit-card-continer,
   .run-extramile-easily-continer,
-  .bmi-data-continer {
+  .bmi-data-continer,.unique-section {
     flex-direction: column;
   }
   .run-extramile-easily-image,
