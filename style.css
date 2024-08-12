@@ -537,7 +537,6 @@ input::placeholder {
   gap: 1rem;
   justify-content: space-around;
   margin: 2rem auto;
-  height: 400px;
 }
 .unique-section-card {
   display: flex;
@@ -593,14 +592,15 @@ input::placeholder {
 }
 .footer {
   width: 100%;
-  margin: 2rem 0;
   background: rgba(255, 255, 255, 0.1);
-  padding: 2rem 0;
+  padding: 3rem 0;
+  margin-top: 3rem;
 }
 .footer hr {
   width: 80%;
   border: 2px solid rgba(255, 255, 255, 0.1);
   margin: 2rem auto;
+  
 }
 .footer p {
   margin: 0 auto;
@@ -609,11 +609,13 @@ input::placeholder {
   font-size: 1rem;
   font-weight: 400;
   margin-top: 2rem;
+  margin-bottom: 0;
 }
 .footer-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .footer-continer {
   width: 80%;
@@ -621,7 +623,7 @@ input::placeholder {
   justify-content: space-between;
   gap: 1rem;
   align-items: center;
-  padding-top: 2rem;
+  
 }
 .footer-continer .card {
   max-width: 300px;
@@ -639,28 +641,30 @@ input::placeholder {
   text-align: left;
   margin-top: 2rem;
 }
-.card1 h3 {
+.footer-continer .card1 h3 {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   font-weight: 700;
 }
-.card1 p {
+.footer-continer .card1 p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
   text-align: left;
+  margin-top: 1rem;
   
 }
-.card2 h3 {
+.footer-continer .card2 h3 {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   font-weight: 700;
 }
-.card2 p {
+.footer-continer .card2 p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
   text-align: left;
+  margin-top: 1rem;
   
 }
 
@@ -680,12 +684,18 @@ input::placeholder {
   .unique-section {
     display: flex;
   }
+  
   .hero-section,
   .habit-card-continer,
   .run-extramile-easily-continer,
   .bmi-data-continer,
   .unique-section {
     flex-direction: column;
+  }
+  .footer-continer{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
   }
   .run-extramile-easily-image,
   .run-extramile-easily-continer {
