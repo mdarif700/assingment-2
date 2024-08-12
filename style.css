@@ -484,7 +484,7 @@ input::placeholder {
   font-weight: 800;
 }
 .image-gallery-trinner {
-  width: 75%;
+  width: 80%;
   padding: 1rem;
   gap: 1rem;
   margin: 2rem auto;
@@ -581,6 +581,18 @@ input::placeholder {
   border: 2px solid #d79447;
   transform: scale(1.05);
   transition: .8s;
+}
+.unique-section-card h3{
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.unique-section-card p{
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.4;
+  text-transform: capitalize;
 }
 
 @media screen and (max-width: 570px) {
